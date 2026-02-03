@@ -1,0 +1,200 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Base styles */
+@layer base {
+  * {
+    @apply border-gray-200 dark:border-gray-700;
+  }
+  
+  body {
+    @apply bg-traffic-light-bg dark:bg-traffic-dark-bg text-gray-900 dark:text-gray-100;
+    @apply font-sans antialiased;
+  }
+
+  /* Custom scrollbar */
+  ::-webkit-scrollbar {
+    @apply w-2 h-2;
+  }
+
+  ::-webkit-scrollbar-track {
+    @apply bg-gray-100 dark:bg-gray-800 rounded-full;
+  }
+
+  ::-webkit-scrollbar-thumb {
+    @apply bg-gray-300 dark:bg-gray-600 rounded-full hover:bg-gray-400 dark:hover:bg-gray-500;
+  }
+}
+
+/* Component styles */
+@layer components {
+  /* Cards */
+  .card {
+    @apply bg-white dark:bg-traffic-dark-card rounded-xl shadow-sm border border-gray-200 dark:border-traffic-dark-border;
+    @apply transition-all duration-200;
+  }
+
+  .card-hover {
+    @apply hover:shadow-md hover:border-traffic-primary/30;
+  }
+
+  /* Buttons */
+  .btn {
+    @apply inline-flex items-center justify-center gap-2 px-4 py-2 rounded-lg font-medium;
+    @apply transition-all duration-200;
+    @apply focus:outline-none focus:ring-2 focus:ring-offset-2;
+  }
+
+  .btn-primary {
+    @apply bg-traffic-primary text-white hover:bg-blue-600;
+    @apply focus:ring-traffic-primary;
+  }
+
+  .btn-secondary {
+    @apply bg-gray-100 dark:bg-gray-800 text-gray-700 dark:text-gray-200;
+    @apply hover:bg-gray-200 dark:hover:bg-gray-700;
+    @apply focus:ring-gray-500;
+  }
+
+  .btn-ghost {
+    @apply bg-transparent text-gray-600 dark:text-gray-300;
+    @apply hover:bg-gray-100 dark:hover:bg-gray-800;
+  }
+
+  /* Stat cards */
+  .stat-card {
+    @apply card p-6;
+    @apply hover:shadow-lg hover:-translate-y-0.5;
+    @apply transition-all duration-300;
+  }
+
+  .stat-value {
+    @apply text-3xl font-bold text-gray-900 dark:text-white;
+  }
+
+  .stat-label {
+    @apply text-sm text-gray-500 dark:text-gray-400 uppercase tracking-wide;
+  }
+
+  /* Navigation */
+  .nav-link {
+    @apply flex items-center gap-3 px-4 py-3 rounded-lg;
+    @apply text-gray-600 dark:text-gray-300;
+    @apply hover:bg-gray-100 dark:hover:bg-gray-800;
+    @apply transition-colors duration-200;
+  }
+
+  .nav-link.active {
+    @apply bg-traffic-primary/10 text-traffic-primary;
+    @apply font-medium;
+  }
+
+  /* Charts container */
+  .chart-container {
+    @apply card p-6;
+  }
+
+  .chart-title {
+    @apply text-lg font-semibold text-gray-900 dark:text-white mb-4;
+  }
+
+  /* Badge */
+  .badge {
+    @apply inline-flex items-center px-2.5 py-0.5 rounded-full text-xs font-medium;
+  }
+
+  .badge-success {
+    @apply bg-green-100 text-green-800 dark:bg-green-900/30 dark:text-green-400;
+  }
+
+  .badge-warning {
+    @apply bg-amber-100 text-amber-800 dark:bg-amber-900/30 dark:text-amber-400;
+  }
+
+  .badge-danger {
+    @apply bg-red-100 text-red-800 dark:bg-red-900/30 dark:text-red-400;
+  }
+
+  /* Slider */
+  .time-slider {
+    @apply w-full h-2 bg-gray-200 dark:bg-gray-700 rounded-full;
+    @apply appearance-none cursor-pointer;
+  }
+
+  .time-slider::-webkit-slider-thumb {
+    @apply appearance-none w-4 h-4 bg-traffic-primary rounded-full;
+    @apply cursor-pointer shadow-md;
+    @apply hover:scale-110 transition-transform;
+  }
+
+  /* Map container */
+  .map-container {
+    @apply rounded-xl overflow-hidden border border-gray-200 dark:border-traffic-dark-border;
+  }
+
+  /* Loading skeleton */
+  .skeleton {
+    @apply bg-gray-200 dark:bg-gray-700 rounded animate-pulse;
+  }
+}
+
+/* Utility classes */
+@layer utilities {
+  .text-gradient {
+    @apply bg-gradient-to-r from-traffic-primary to-traffic-secondary bg-clip-text text-transparent;
+  }
+
+  .glass {
+    @apply bg-white/80 dark:bg-gray-900/80 backdrop-blur-lg;
+  }
+
+  /* Hide scrollbar but allow scrolling */
+  .scrollbar-hide {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+  }
+  
+  .scrollbar-hide::-webkit-scrollbar {
+    display: none;
+  }
+}
+
+/* Leaflet map fixes for dark mode */
+.dark .leaflet-layer,
+.dark .leaflet-control-zoom-in,
+.dark .leaflet-control-zoom-out,
+.dark .leaflet-control-attribution {
+  filter: invert(1) hue-rotate(180deg);
+}
+
+.dark .leaflet-marker-icon {
+  filter: invert(1) hue-rotate(180deg) brightness(1.5);
+}
+
+/* Animation classes */
+.animate-in {
+  animation: fadeIn 0.5s ease-out forwards;
+}
+
+.stagger-1 { animation-delay: 0.1s; }
+.stagger-2 { animation-delay: 0.2s; }
+.stagger-3 { animation-delay: 0.3s; }
+.stagger-4 { animation-delay: 0.4s; }
+
+/* Responsive chart heights */
+.chart-responsive {
+  min-height: 250px;
+}
+
+@media (min-width: 768px) {
+  .chart-responsive {
+    min-height: 300px;
+  }
+}
+
+@media (min-width: 1024px) {
+  .chart-responsive {
+    min-height: 350px;
+  }
+}
