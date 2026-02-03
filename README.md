@@ -1,44 +1,59 @@
-<!-- Animated Header -->
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=200&section=header&text=🚦%20Traffic%20AI&fontSize=80&fontAlignY=35&animation=twinkling&fontColor=ffffff&desc=Intelligent%20Vehicle%20Detection%20%26%20Traffic%20Analysis&descSize=20&descAlignY=55"/>
+  <img src="https://readme-typing-svg.herokuapp.com?font=Orbitron&weight=900&size=60&duration=3000&pause=1000&color=00D9FF&center=true&vCenter=true&multiline=true&repeat=true&width=800&height=120&lines=🚦+TRAFFIC+AI" alt="Traffic AI" />
 </p>
 
-<!-- Typing SVG Animation -->
 <p align="center">
-  <a href="https://git.io/typing-svg">
-    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=28&duration=4000&pause=1000&color=00D9FF&center=true&vCenter=true&multiline=true&repeat=false&random=false&width=900&height=100&lines=🤖+Real-Time+Vehicle+Detection+with+YOLOv8;📊+Smart+Traffic+Analytics+%26+Counting+System" alt="Typing SVG" />
-  </a>
+  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=500&size=24&duration=3000&pause=1000&color=36BCF7&center=true&vCenter=true&width=700&lines=Intelligent+Vehicle+Detection+%26+Traffic+Analysis;Real-Time+Monitoring+with+YOLOv8+%2B+ByteTrack;Professional+Web+Dashboard+for+Smart+Cities" alt="Tagline" />
+</p>
+
+<!-- Animated Divider -->
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%">
 </p>
 
 <!-- Badges -->
 <p align="center">
   <img src="https://img.shields.io/badge/Python-3.9+-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python"/>
   <img src="https://img.shields.io/badge/YOLOv8-Ultralytics-00FFFF?style=for-the-badge&logo=yolo&logoColor=white" alt="YOLO"/>
+  <img src="https://img.shields.io/badge/React-18.x-61DAFB?style=for-the-badge&logo=react&logoColor=black" alt="React"/>
+  <img src="https://img.shields.io/badge/FastAPI-0.109-009688?style=for-the-badge&logo=fastapi&logoColor=white" alt="FastAPI"/>
+  <img src="https://img.shields.io/badge/TypeScript-5.x-3178C6?style=for-the-badge&logo=typescript&logoColor=white" alt="TypeScript"/>
+</p>
+
+<p align="center">
   <img src="https://img.shields.io/badge/OpenCV-4.x-5C3EE8?style=for-the-badge&logo=opencv&logoColor=white" alt="OpenCV"/>
-  <img src="https://img.shields.io/badge/PyTorch-2.0+-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white" alt="PyTorch"/>
+  <img src="https://img.shields.io/badge/Tailwind-3.4-06B6D4?style=for-the-badge&logo=tailwindcss&logoColor=white" alt="Tailwind"/>
+  <img src="https://img.shields.io/badge/Recharts-2.x-FF6384?style=for-the-badge&logo=chart.js&logoColor=white" alt="Recharts"/>
+  <img src="https://img.shields.io/badge/Leaflet-GIS-199900?style=for-the-badge&logo=leaflet&logoColor=white" alt="Leaflet"/>
   <img src="https://img.shields.io/badge/CUDA-Enabled-76B900?style=for-the-badge&logo=nvidia&logoColor=white" alt="CUDA"/>
 </p>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/Status-Active-success?style=for-the-badge" alt="Status"/>
+  <img src="https://img.shields.io/badge/Status-Production_Ready-success?style=for-the-badge" alt="Status"/>
   <img src="https://img.shields.io/badge/License-MIT-blue?style=for-the-badge" alt="License"/>
   <img src="https://img.shields.io/badge/PRs-Welcome-brightgreen?style=for-the-badge" alt="PRs Welcome"/>
-  <img src="https://img.shields.io/badge/Maintained-Yes-green?style=for-the-badge" alt="Maintained"/>
 </p>
 
 ---
 
-<!-- Quick Navigation -->
-<p align="center">
-  <a href="#-overview">Overview</a> •
-  <a href="#-features">Features</a> •
-  <a href="#-architecture">Architecture</a> •
-  <a href="#-quick-start">Quick Start</a> •
-  <a href="#-demo">Demo</a> •
-  <a href="#-tech-stack">Tech Stack</a> •
-  <a href="#-roadmap">Roadmap</a> •
-  <a href="#-contributing">Contributing</a>
-</p>
+## 📑 Table of Contents
+
+<details open>
+<summary>Click to expand</summary>
+
+- [🌟 Overview](#-overview)
+- [✨ Features](#-features)
+- [📸 Screenshots](#-screenshots)
+- [🏗️ Architecture](#️-architecture)
+- [🚀 Quick Start](#-quick-start)
+- [🛠️ Tech Stack](#️-tech-stack)
+- [📊 Dashboard Features](#-dashboard-features)
+- [⚙️ Configuration](#️-configuration)
+- [🗺️ Roadmap](#️-roadmap)
+- [🤝 Contributing](#-contributing)
+- [📄 License](#-license)
+
+</details>
 
 ---
 
@@ -50,59 +65,124 @@
 
 ### 🎯 What is Traffic AI?
 
-**Traffic AI** is a cutting-edge computer vision system that leverages the power of **YOLOv8** and **ByteTrack** to perform real-time vehicle detection, tracking, and traffic flow analysis. Built for smart city applications and traffic management systems.
+**Traffic AI** is a comprehensive computer vision system that combines the power of **YOLOv8** object detection with a **professional-grade web dashboard** for real-time traffic monitoring and analysis. Built for smart city applications, urban planners, and traffic engineers.
+
+**This project includes:**
+- 🤖 **AI Core**: YOLOv8 + ByteTrack detection & tracking
+- 🌐 **Web Dashboard**: React + FastAPI full-stack application
+- 📊 **Analytics Engine**: Real-time traffic insights
+- 🗺️ **GIS Visualization**: Interactive heatmaps with Leaflet
 
 </td>
 <td width="50%">
 
-### 💡 Why Traffic AI?
+### 💡 Key Highlights
 
-- 🚗 **Smart Cities** need intelligent traffic monitoring
-- 📈 **Data-Driven Decisions** for urban planning
-- ⚡ **Real-Time Processing** for immediate insights
-- 🎯 **High Accuracy** with state-of-the-art YOLO models
+| Feature | Description |
+|---------|-------------|
+| 🚗 **Real-Time Detection** | Process video at high FPS with GPU |
+| 📈 **Smart Analytics** | Per-minute vehicle counting & trends |
+| 🌙 **Dark/Light Mode** | Professional UI with theme support |
+| 🗺️ **GIS Heatmaps** | Time-animated traffic density maps |
+| 📱 **Responsive Design** | Works on desktop, tablet & mobile |
+| 📥 **Data Export** | CSV, JSON & PDF report generation |
 
 </td>
 </tr>
 </table>
 
-<p align="center">
-  <img src="https://user-images.githubusercontent.com/placeholder/traffic-ai-demo.gif" alt="Traffic AI Demo" width="80%"/>
-</p>
-
 ---
 
 ## ✨ Features
 
-<table>
-<tr>
-<td>
-
-### 🚀 Core Capabilities
+### 🤖 AI Detection Pipeline
 
 | Feature | Description | Status |
 |---------|-------------|--------|
-| 🎥 **Real-Time Detection** | Process video streams at high FPS | ✅ |
+| 🎥 **Real-Time Detection** | Process video streams at 30+ FPS | ✅ |
 | 🚗 **Multi-Vehicle Tracking** | Cars, trucks, buses, motorcycles | ✅ |
-| 📊 **Traffic Analytics** | Per-minute vehicle counting | ✅ |
 | 🎯 **Line Crossing Detection** | Virtual counting lines | ✅ |
-| 💾 **Data Export** | CSV reports with timestamps | ✅ |
-| 🎬 **Video Output** | Annotated output with overlays | ✅ |
-
-</td>
-<td>
-
-### 🛠️ Technical Features
-
-| Feature | Description | Status |
-|---------|-------------|--------|
 | 🧠 **YOLOv8 Integration** | Latest Ultralytics models | ✅ |
 | 🔄 **ByteTrack Algorithm** | State-of-the-art tracking | ✅ |
 | ⚡ **GPU Acceleration** | CUDA-enabled processing | ✅ |
-| 📈 **Performance Metrics** | FPS monitoring | ✅ |
-| 🎨 **Visual Overlays** | Bounding boxes & IDs | ✅ |
-| 📱 **Modular Design** | Easy to extend | ✅ |
 
+### 🌐 Web Dashboard (NEW!)
+
+| Feature | Description | Status |
+|---------|-------------|--------|
+| 📊 **Interactive Charts** | Line, Bar, Area, Pie with Recharts | ✅ |
+| 🗺️ **GIS Heatmaps** | Leaflet maps with density visualization | ✅ |
+| ⏱️ **Time Slider** | Animate traffic patterns over time | ✅ |
+| 🎬 **Video Analytics** | Stream processed YOLO video | ✅ |
+| 🌙 **Dark/Light Theme** | Professional UI theming | ✅ |
+| 📥 **Export Options** | CSV, JSON, Markdown reports | ✅ |
+| 📱 **Responsive Layout** | Mobile-first design | ✅ |
+| ⚡ **Real-Time Updates** | TanStack Query data fetching | ✅ |
+
+---
+
+## 📸 Screenshots
+
+### 🏠 Dashboard Overview
+<p align="center">
+  <img src="screenshots/1.png" width="90%" alt="Dashboard Overview"/>
+</p>
+
+### 📊 Traffic Analytics & Charts
+<table>
+<tr>
+<td width="50%">
+  <img src="screenshots/2.png" width="100%" alt="Analytics View 1"/>
+</td>
+<td width="50%">
+  <img src="screenshots/3.png" width="100%" alt="Analytics View 2"/>
+</td>
+</tr>
+<tr>
+<td width="50%">
+  <img src="screenshots/4.png" width="100%" alt="Charts View 1"/>
+</td>
+<td width="50%">
+  <img src="screenshots/5.png" width="100%" alt="Charts View 2"/>
+</td>
+</tr>
+</table>
+
+### 🎬 Video Analytics Section
+<table>
+<tr>
+<td width="50%">
+  <img src="screenshots/6.png" width="100%" alt="Video Analytics 1"/>
+</td>
+<td width="50%">
+  <img src="screenshots/7.png" width="100%" alt="Video Analytics 2"/>
+</td>
+</tr>
+</table>
+
+### 🗺️ GIS Heatmap & Time Animation
+<table>
+<tr>
+<td width="50%">
+  <img src="screenshots/8.png" width="100%" alt="GIS Heatmap 1"/>
+</td>
+<td width="50%">
+  <img src="screenshots/9.png" width="100%" alt="GIS Heatmap 2"/>
+</td>
+</tr>
+</table>
+
+### 🌙 Dark Mode & Additional Views
+<table>
+<tr>
+<td width="33%">
+  <img src="screenshots/10.png" width="100%" alt="Dark Mode 1"/>
+</td>
+<td width="33%">
+  <img src="screenshots/11.png" width="100%" alt="Dark Mode 2"/>
+</td>
+<td width="33%">
+  <img src="screenshots/12.png" width="100%" alt="Additional View"/>
 </td>
 </tr>
 </table>
@@ -112,112 +192,81 @@
 ## 🏗️ Architecture
 
 ```
-                    ┌─────────────────────────────────────────────────────────────┐
-                    │                    🚦 TRAFFIC AI SYSTEM                      │
-                    └─────────────────────────────────────────────────────────────┘
-                                                │
-                    ┌───────────────────────────┼───────────────────────────┐
-                    │                           │                           │
-                    ▼                           ▼                           ▼
-        ┌───────────────────┐       ┌───────────────────┐       ┌───────────────────┐
-        │  📹 INPUT MODULE  │       │  🧠 AI CORE       │       │  📊 OUTPUT MODULE │
-        │                   │       │                   │       │                   │
-        │  • Video Stream   │──────▶│  • YOLOv8 Model   │──────▶│  • Annotated Video│
-        │  • Camera Feed    │       │  • ByteTrack      │       │  • CSV Reports    │
-        │  • Video Files    │       │  • GPU Processing │       │  • Analytics Data │
-        └───────────────────┘       └───────────────────┘       └───────────────────┘
-                                            │
-                                            ▼
-                    ┌─────────────────────────────────────────────────────────────┐
-                    │                    📈 ANALYTICS ENGINE                       │
-                    │                                                             │
-                    │   ┌─────────────┐  ┌─────────────┐  ┌─────────────┐        │
-                    │   │  Counting   │  │  Tracking   │  │  Reporting  │        │
-                    │   │   Module    │  │   Module    │  │   Module    │        │
-                    │   └─────────────┘  └─────────────┘  └─────────────┘        │
-                    │                                                             │
-                    │   • Line Crossing  • Object IDs    • Per-Minute Stats      │
-                    │   • Vehicle Types  • Trajectories  • CSV Export            │
-                    │   • Real-time      • History       • Timestamps            │
-                    └─────────────────────────────────────────────────────────────┘
+┌─────────────────────────────────────────────────────────────────────────────────┐
+│                            🚦 TRAFFIC AI SYSTEM                                 │
+├─────────────────────────────────────────────────────────────────────────────────┤
+│                                                                                 │
+│   ┌─────────────────┐      ┌─────────────────┐      ┌─────────────────┐        │
+│   │  🤖 AI PIPELINE │      │  ⚡ BACKEND     │      │  🎨 FRONTEND    │        │
+│   │                 │      │                 │      │                 │        │
+│   │  • YOLOv8       │ ───▶ │  • FastAPI      │ ───▶ │  • React 18     │        │
+│   │  • ByteTrack    │      │  • REST APIs    │      │  • TypeScript   │        │
+│   │  • OpenCV       │      │  • Pandas       │      │  • Tailwind CSS │        │
+│   │  • CUDA         │      │  • Pydantic     │      │  • Recharts     │        │
+│   └─────────────────┘      └─────────────────┘      └─────────────────┘        │
+│           │                        │                        │                  │
+│           ▼                        ▼                        ▼                  │
+│   ┌─────────────────┐      ┌─────────────────┐      ┌─────────────────┐        │
+│   │  📹 Outputs     │      │  📊 Endpoints   │      │  🖥️ Components  │        │
+│   │                 │      │                 │      │                 │        │
+│   │  • Video (MP4)  │      │  /api/traffic/* │      │  • Dashboard    │        │
+│   │  • CSV Data     │      │  /api/video/*   │      │  • Charts       │        │
+│   │  • Detections   │      │  /api/export/*  │      │  • GIS Maps     │        │
+│   └─────────────────┘      └─────────────────┘      └─────────────────┘        │
+│                                                                                 │
+└─────────────────────────────────────────────────────────────────────────────────┘
 ```
 
----
-
-<details>
-<summary><h2>🔬 Technical Deep Dive</h2></summary>
-
-### 🧠 Detection Pipeline
-
-```python
-# YOLOv8 Configuration
-model = YOLO("yolov8n.pt")
-
-# Detection Parameters
-results = model.track(
-    frame,
-    persist=True,           # Maintain tracking across frames
-    conf=0.4,               # Confidence threshold
-    classes=[2, 3, 5, 7],   # car, motorcycle, bus, truck
-    tracker="bytetrack.yaml"
-)
-```
-
-### 📊 Vehicle Classification
-
-| Class ID | Vehicle Type | COCO Label |
-|----------|--------------|------------|
-| 2 | 🚗 Car | car |
-| 3 | 🏍️ Motorcycle | motorcycle |
-| 5 | 🚌 Bus | bus |
-| 7 | 🚚 Truck | truck |
-
-### 🎯 Line Crossing Logic
-
-```python
-def crossed_line(prev_y, curr_y, line_y):
-    """Detect when object crosses the counting line"""
-    return prev_y < line_y and curr_y >= line_y
-```
-
-### ⚡ Performance Optimizations
-
-- **GPU Acceleration**: CUDA-enabled inference
-- **Batch Processing**: Efficient frame handling
-- **Memory Management**: Smart tracking history cleanup
-- **Optimized I/O**: Efficient video read/write
-
-</details>
-
----
-
-## 📁 Project Structure
+### 📁 Project Structure
 
 ```
 🚦 Traffic-AI-YOLO/
 │
-├── 📄 app.py                          # Main application entry point
-├── 📄 requirements.txt                # Project dependencies
-├── 📄 README.md                       # You are here! 📍
+├── 📄 app.py                      # AI detection entry point
+├── 📄 requirements.txt            # Python dependencies
+├── 📄 README.md                   # You are here! 📍
 │
-├── 📁 notebook/                       # Jupyter notebooks
-│   ├── 📓 VEHICLE_DETECTION_1.ipynb  # Basic detection pipeline
-│   └── 📓 VEHICLE_DETECTION_2.ipynb  # Advanced tracking & counting
+├── 📁 dashboard/                  # 🆕 WEB DASHBOARD
+│   ├── 📁 backend/                # FastAPI Backend
+│   │   ├── main.py                # Server entry point
+│   │   ├── config.py              # Configuration
+│   │   ├── 📁 api/routes/         # REST API endpoints
+│   │   │   ├── traffic.py         # Traffic data APIs
+│   │   │   ├── video.py           # Video streaming
+│   │   │   ├── export.py          # Data exports
+│   │   │   └── config.py          # Settings API
+│   │   └── 📁 services/           # Business logic
+│   │       └── data_service.py    # CSV processing
+│   │
+│   └── 📁 frontend/               # React Frontend
+│       ├── 📁 src/
+│       │   ├── 📁 components/     # UI Components
+│       │   │   ├── 📁 layout/     # Header, Sidebar, Footer
+│       │   │   ├── 📁 dashboard/  # Overview, Stats
+│       │   │   ├── 📁 charts/     # Line, Bar, Area, Pie
+│       │   │   ├── 📁 video/      # Video player
+│       │   │   └── 📁 maps/       # GIS Heatmap
+│       │   ├── 📁 hooks/          # Custom React hooks
+│       │   ├── 📁 services/       # API client
+│       │   ├── 📁 store/          # Zustand state
+│       │   └── 📁 types/          # TypeScript types
+│       └── 📁 public/             # Static assets
 │
-├── 📁 data/                           # Data storage
-│   └── 📊 traffic_counts_per_minute.csv
+├── 📁 notebook/                   # Jupyter notebooks
+│   ├── VEHICLE_DETECTION_1.ipynb
+│   ├── VEHICLE_DETECTION_2.ipynb
+│   └── VEHICLE_DETECTION_3.ipynb
 │
-├── 📁 detection/                      # Detection modules
-│   └── 🧠 (YOLO inference code)
+├── 📁 data/                       # Data storage
+│   ├── traffic_counts_per_minute.csv
+│   ├── traffic_count_output.mp4   # Processed video
+│   └── traffic.mov                # Input video
 │
-├── 📁 tracking/                       # Tracking algorithms
-│   └── 🔄 (ByteTrack implementation)
-│
-├── 📁 counting/                       # Counting logic
-│   └── 📈 (Line crossing detection)
-│
-└── 📁 gis/                            # GIS integration
-    └── 🗺️ (Geospatial features)
+├── 📁 screenshots/                # Dashboard screenshots
+├── 📁 detection/                  # Detection modules
+├── 📁 tracking/                   # Tracking algorithms
+├── 📁 counting/                   # Counting logic
+└── 📁 gis/                        # GIS integration
 ```
 
 ---
@@ -226,175 +275,188 @@ def crossed_line(prev_y, curr_y, line_y):
 
 ### 📋 Prerequisites
 
-<table>
-<tr>
-<td>
-
 | Requirement | Version | Purpose |
 |-------------|---------|---------|
-| 🐍 Python | 3.9+ | Runtime |
-| 🎮 CUDA | 11.x+ | GPU Acceleration |
-| 📦 pip | Latest | Package Manager |
+| 🐍 Python | 3.9+ | AI Pipeline & Backend |
+| 📦 Node.js | 18+ | Frontend Build |
+| 🎮 CUDA | 11.x+ | GPU Acceleration (Optional) |
 | 🎥 FFmpeg | Latest | Video Processing |
-
-</td>
-</tr>
-</table>
 
 ### ⚡ Installation
 
 ```bash
 # 1️⃣ Clone the repository
-git clone https://github.com/dinraj910/traffic-ai-yolo.git
-cd traffic-ai-yolo
+git clone https://github.com/dinraj910/Traffic-AI-YOLO.git
+cd Traffic-AI-YOLO
 
 # 2️⃣ Create virtual environment
 python -m venv venv
 source venv/bin/activate  # Windows: venv\Scripts\activate
 
-# 3️⃣ Install dependencies
+# 3️⃣ Install AI pipeline dependencies
 pip install -r requirements.txt
 
 # 4️⃣ Verify GPU support
 python -c "import torch; print(f'CUDA Available: {torch.cuda.is_available()}')"
-
-# 5️⃣ Run the application
-python app.py
 ```
 
-### 📦 Dependencies
+### 🖥️ Running the Dashboard
 
 ```bash
-# Core dependencies
-pip install ultralytics opencv-python numpy pandas
+# 📁 Backend Setup
+cd dashboard/backend
+pip install -r requirements.txt
+python -m uvicorn main:app --host 127.0.0.1 --port 8000
 
-# GPU support (if available)
-pip install torch torchvision --index-url https://download.pytorch.org/whl/cu118
+# 📁 Frontend Setup (new terminal)
+cd dashboard/frontend
+npm install
+npm run dev
 ```
 
----
+**Access the dashboard at: http://localhost:3000**
 
-## 🎬 Demo
+### 🎬 Running AI Detection
 
-<p align="center">
-
-### 📸 Screenshots
-
-<table>
-<tr>
-<td align="center">
-<img src="https://via.placeholder.com/400x250/1a1a2e/00d9ff?text=🚗+Vehicle+Detection" alt="Detection"/>
-<br><b>Real-Time Detection</b>
-</td>
-<td align="center">
-<img src="https://via.placeholder.com/400x250/1a1a2e/00ff88?text=📊+Traffic+Analytics" alt="Analytics"/>
-<br><b>Traffic Analytics</b>
-</td>
-</tr>
-<tr>
-<td align="center">
-<img src="https://via.placeholder.com/400x250/1a1a2e/ff6b6b?text=🔄+Object+Tracking" alt="Tracking"/>
-<br><b>Multi-Object Tracking</b>
-</td>
-<td align="center">
-<img src="https://via.placeholder.com/400x250/1a1a2e/ffd93d?text=📈+CSV+Reports" alt="Reports"/>
-<br><b>Data Export</b>
-</td>
-</tr>
-</table>
-
-</p>
-
----
-
-## ⚙️ Configuration
-
-### 🔧 Environment Variables
-
-| Variable | Description | Default |
-|----------|-------------|---------|
-| `VIDEO_PATH` | Input video file path | `traffic.mov` |
-| `LINE_Y` | Y-coordinate for counting line | `400` |
-| `CONF_THRESHOLD` | Detection confidence threshold | `0.4` |
-| `IOU_THRESHOLD` | IoU threshold for NMS | `0.5` |
-| `DEVICE` | Processing device (0=GPU, cpu=CPU) | `0` |
-
-### 📝 Model Configuration
-
-```python
-# config.py
-CONFIG = {
-    "model": "yolov8n.pt",      # Model variant (n/s/m/l/x)
-    "tracker": "bytetrack.yaml", # Tracking algorithm
-    "classes": [2, 3, 5, 7],     # Vehicle classes
-    "conf": 0.4,                  # Confidence threshold
-    "iou": 0.5,                   # IoU threshold
-}
+```bash
+# Run vehicle detection on video
+python app.py
 ```
 
 ---
 
 ## 🛠️ Tech Stack
 
-<p align="center">
-
 <table>
 <tr>
 <td align="center" width="96">
 <img src="https://skillicons.dev/icons?i=python" width="48" height="48" alt="Python" />
-<br>Python
+<br><b>Python</b>
 </td>
 <td align="center" width="96">
 <img src="https://skillicons.dev/icons?i=pytorch" width="48" height="48" alt="PyTorch" />
-<br>PyTorch
+<br><b>PyTorch</b>
 </td>
+<td align="center" width="96">
+<img src="https://skillicons.dev/icons?i=react" width="48" height="48" alt="React" />
+<br><b>React 18</b>
+</td>
+<td align="center" width="96">
+<img src="https://skillicons.dev/icons?i=typescript" width="48" height="48" alt="TypeScript" />
+<br><b>TypeScript</b>
+</td>
+<td align="center" width="96">
+<img src="https://skillicons.dev/icons?i=tailwind" width="48" height="48" alt="Tailwind" />
+<br><b>Tailwind</b>
+</td>
+<td align="center" width="96">
+<img src="https://skillicons.dev/icons?i=fastapi" width="48" height="48" alt="FastAPI" />
+<br><b>FastAPI</b>
+</td>
+</tr>
+<tr>
 <td align="center" width="96">
 <img src="https://skillicons.dev/icons?i=opencv" width="48" height="48" alt="OpenCV" />
-<br>OpenCV
+<br><b>OpenCV</b>
 </td>
 <td align="center" width="96">
-<img src="https://upload.wikimedia.org/wikipedia/commons/a/ae/Keras_logo.svg" width="48" height="48" alt="YOLOv8" />
-<br>YOLOv8
+<img src="https://skillicons.dev/icons?i=vite" width="48" height="48" alt="Vite" />
+<br><b>Vite</b>
 </td>
 <td align="center" width="96">
 <img src="https://numpy.org/images/logo.svg" width="48" height="48" alt="NumPy" />
-<br>NumPy
+<br><b>NumPy</b>
 </td>
 <td align="center" width="96">
 <img src="https://pandas.pydata.org/static/img/pandas_mark.svg" width="48" height="48" alt="Pandas" />
-<br>Pandas
+<br><b>Pandas</b>
+</td>
+<td align="center" width="96">
+<img src="https://www.chartjs.org/img/chartjs-logo.svg" width="48" height="48" alt="Recharts" />
+<br><b>Recharts</b>
+</td>
+<td align="center" width="96">
+<img src="https://leafletjs.com/docs/images/logo.png" width="48" height="48" alt="Leaflet" />
+<br><b>Leaflet</b>
 </td>
 </tr>
 </table>
 
-</p>
+---
 
-### 🏆 Why These Technologies?
+## 📊 Dashboard Features
 
-| Technology | Purpose | Benefit |
-|------------|---------|---------|
-| **YOLOv8** | Object Detection | State-of-the-art accuracy & speed |
-| **ByteTrack** | Multi-Object Tracking | Robust tracking with occlusion handling |
-| **OpenCV** | Video Processing | Industry-standard computer vision |
-| **PyTorch** | Deep Learning Backend | GPU acceleration & flexibility |
-| **Pandas** | Data Analysis | Efficient data manipulation |
-| **NumPy** | Numerical Operations | Fast array computations |
+### 🏠 Overview Page
+- **Stats Cards**: Total vehicles, peak hour, detection rate, active duration
+- **Traffic Density Indicator**: Real-time congestion level
+- **Quick Insights**: Busiest periods, vehicle distribution, trends
+
+### 📈 Analytics Page
+- **Vehicle Line Chart**: Time-series traffic flow visualization
+- **Category Bar Chart**: Vehicle type distribution
+- **Traffic Area Chart**: Cumulative traffic patterns
+- **Vehicle Pie Chart**: Percentage breakdown by category
+
+### 🎬 Video Analytics
+- **Embedded Video Player**: Stream YOLO-processed video
+- **Detection Overlays**: Bounding boxes and tracking IDs
+- **Detection Summary**: Real-time stats panel
+
+### 🗺️ GIS Heatmap
+- **Interactive Map**: OpenStreetMap with Leaflet
+- **Heat Layer**: Traffic density visualization
+- **Time Slider**: Animate traffic over time with play/pause controls
+- **Location Marker**: Camera position indicator
 
 ---
 
-## 📊 Performance Metrics
+## ⚙️ Configuration
+
+### 🔧 Backend Configuration (`dashboard/backend/config.py`)
+
+```python
+# Data Paths
+data_dir = "../../data"
+csv_file = "traffic_counts_per_minute.csv"
+video_file = "traffic_count_output.mp4"
+
+# Location Configuration
+location_name = "Vittal Mallya Road, Bengaluru"
+latitude = 12.9716
+longitude = 77.5946
+camera_id = "CAM-VMR-001"
+```
+
+### 🎨 Frontend Configuration
+
+```typescript
+// API Configuration
+const API_BASE_URL = 'http://localhost:8000/api';
+
+// Theme Colors
+const trafficColors = {
+  primary: '#3B82F6',    // Blue
+  secondary: '#10B981',  // Green
+  warning: '#F59E0B',    // Amber
+  danger: '#EF4444',     // Red
+};
+```
+
+---
+
+## 📈 Performance
 
 <table>
 <tr>
 <td>
 
-### ⚡ Inference Speed
+### ⚡ AI Detection Speed
 
-| Model | Resolution | FPS (GPU) | FPS (CPU) |
-|-------|------------|-----------|-----------|
-| YOLOv8n | 640x640 | ~60 | ~15 |
-| YOLOv8s | 640x640 | ~45 | ~10 |
-| YOLOv8m | 640x640 | ~35 | ~5 |
+| Model | Resolution | GPU FPS | CPU FPS |
+|-------|------------|---------|---------|
+| YOLOv8n | 640×640 | ~60 | ~15 |
+| YOLOv8s | 640×640 | ~45 | ~10 |
+| YOLOv8m | 640×640 | ~35 | ~5 |
 
 </td>
 <td>
@@ -416,34 +478,19 @@ CONFIG = {
 
 ## 🗺️ Roadmap
 
-```mermaid
-gantt
-    title Traffic AI Development Roadmap
-    dateFormat  YYYY-MM
-    section Phase 1 ✅
-    Core Detection System     :done, 2024-01, 2024-02
-    ByteTrack Integration     :done, 2024-02, 2024-03
-    CSV Data Export           :done, 2024-03, 2024-03
-    section Phase 2 🚧
-    Web Dashboard             :active, 2024-04, 2024-06
-    Real-time Streaming       :2024-05, 2024-07
-    API Development           :2024-06, 2024-08
-    section Phase 3 📋
-    Cloud Deployment          :2024-08, 2024-10
-    Mobile App                :2024-09, 2024-12
-    Advanced Analytics        :2024-10, 2025-01
-```
-
-### 🎯 Upcoming Features
-
-- [ ] 🌐 **Web Dashboard** - Real-time monitoring interface
-- [ ] 📡 **Live Streaming** - RTSP/RTMP camera support
-- [ ] 🔌 **REST API** - Integration endpoints
-- [ ] ☁️ **Cloud Deployment** - AWS/Azure/GCP support
-- [ ] 📱 **Mobile App** - iOS/Android companion
-- [ ] 🧮 **Advanced Analytics** - Traffic prediction & patterns
-- [ ] 🗺️ **GIS Integration** - Geospatial mapping
-- [ ] 🚨 **Alert System** - Anomaly detection notifications
+- [x] 🤖 YOLOv8 Detection Pipeline
+- [x] 🔄 ByteTrack Multi-Object Tracking
+- [x] 📊 CSV Data Export
+- [x] 🌐 **Web Dashboard** (React + FastAPI)
+- [x] 📈 **Interactive Charts** (Recharts)
+- [x] 🗺️ **GIS Heatmaps** (Leaflet)
+- [x] ⏱️ **Time-based Animation**
+- [x] 🌙 **Dark/Light Theme**
+- [ ] 📡 Live RTSP/RTMP Streaming
+- [ ] ☁️ Cloud Deployment (AWS/Azure)
+- [ ] 📱 Mobile Companion App
+- [ ] 🚨 Alert & Notification System
+- [ ] 🧮 Traffic Prediction ML Models
 
 ---
 
@@ -453,20 +500,11 @@ gantt
   <img src="https://img.shields.io/badge/Contributions-Welcome-brightgreen?style=for-the-badge" alt="Contributions Welcome"/>
 </p>
 
-We love contributions! Here's how you can help:
-
 1. 🍴 **Fork** the repository
 2. 🌿 **Create** a feature branch (`git checkout -b feature/AmazingFeature`)
 3. 💾 **Commit** your changes (`git commit -m 'Add AmazingFeature'`)
 4. 📤 **Push** to the branch (`git push origin feature/AmazingFeature`)
 5. 🔃 **Open** a Pull Request
-
-### 📜 Contribution Guidelines
-
-- Follow PEP 8 style guidelines
-- Add docstrings to functions
-- Write unit tests for new features
-- Update documentation as needed
 
 ---
 
@@ -476,46 +514,24 @@ We love contributions! Here's how you can help:
   <img src="https://img.shields.io/badge/License-MIT-blue?style=for-the-badge" alt="MIT License"/>
 </p>
 
-```
-MIT License
-
-Copyright (c) 2024 Your Name
-
-Permission is hereby granted, free of charge, to any person obtaining a copy
-of this software and associated documentation files (the "Software"), to deal
-in the Software without restriction, including without limitation the rights
-to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-copies of the Software, and to permit persons to whom the Software is
-furnished to do so, subject to the following conditions:
-
-The above copyright notice and this permission notice shall be included in all
-copies or substantial portions of the Software.
-```
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
 ---
 
 ## 👨‍💻 Author
 
 <p align="center">
-  <img src="https://avatars.githubusercontent.com/u/placeholder" width="150" style="border-radius: 50%;" alt="Author"/>
-  <br>
-  <b>Your Name</b>
+  <b>Dinraj</b>
   <br>
   <i>AI/ML Engineer | Computer Vision Enthusiast</i>
 </p>
 
 <p align="center">
-  <a href="https://linkedin.com/in/yourprofile">
-    <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/>
-  </a>
   <a href="https://github.com/dinraj910">
     <img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white" alt="GitHub"/>
   </a>
-  <a href="mailto:your.email@example.com">
-    <img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"/>
-  </a>
-  <a href="https://twitter.com/yourhandle">
-    <img src="https://img.shields.io/badge/Twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white" alt="Twitter"/>
+  <a href="https://linkedin.com/in/dinraj910">
+    <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/>
   </a>
 </p>
 
@@ -527,67 +543,52 @@ copies or substantial portions of the Software.
 <tr>
 <td align="center">
 <a href="https://github.com/ultralytics/ultralytics">
-<img src="https://avatars.githubusercontent.com/u/26833433?s=200&v=4" width="80"/>
+<img src="https://avatars.githubusercontent.com/u/26833433?s=200&v=4" width="60"/>
 <br><b>Ultralytics</b>
 </a>
-<br>YOLOv8 Framework
+<br>YOLOv8
 </td>
 <td align="center">
 <a href="https://github.com/ifzhang/ByteTrack">
-<img src="https://avatars.githubusercontent.com/u/17021671?s=200&v=4" width="80"/>
+<img src="https://avatars.githubusercontent.com/u/17021671?s=200&v=4" width="60"/>
 <br><b>ByteTrack</b>
 </a>
-<br>Tracking Algorithm
+<br>Tracking
 </td>
 <td align="center">
-<a href="https://opencv.org/">
-<img src="https://opencv.org/wp-content/uploads/2022/05/logo.png" width="80"/>
-<br><b>OpenCV</b>
+<a href="https://react.dev">
+<img src="https://upload.wikimedia.org/wikipedia/commons/a/a7/React-icon.svg" width="60"/>
+<br><b>React</b>
 </a>
-<br>Computer Vision
+<br>Frontend
 </td>
 <td align="center">
-<a href="https://pytorch.org/">
-<img src="https://pytorch.org/assets/images/pytorch-logo.png" width="80"/>
-<br><b>PyTorch</b>
+<a href="https://fastapi.tiangolo.com">
+<img src="https://fastapi.tiangolo.com/img/logo-margin/logo-teal.png" width="60"/>
+<br><b>FastAPI</b>
 </a>
-<br>Deep Learning
+<br>Backend
+</td>
+<td align="center">
+<a href="https://leafletjs.com">
+<img src="https://leafletjs.com/docs/images/logo.png" width="60"/>
+<br><b>Leaflet</b>
+</a>
+<br>Maps
 </td>
 </tr>
 </table>
 
 ---
 
-## ⭐ Star History
-
 <p align="center">
-  <a href="https://star-history.com/#dinraj910/traffic-ai-yolo&Date">
-    <img src="https://api.star-history.com/svg?repos=dinraj910/traffic-ai-yolo&type=Date" alt="Star History Chart" width="70%"/>
-  </a>
-</p>
-
----
-
-## 💖 Show Your Support
-
-<p align="center">
-  Give a ⭐️ if this project helped you!
-  <br><br>
-  <a href="https://www.buymeacoffee.com/yourprofile">
-    <img src="https://img.shields.io/badge/Buy%20Me%20a%20Coffee-ffdd00?style=for-the-badge&logo=buy-me-a-coffee&logoColor=black" alt="Buy Me A Coffee"/>
-  </a>
-</p>
-
----
-
-<p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=120&section=footer&animation=twinkling"/>
+  <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%">
 </p>
 
 <p align="center">
-  <i>Made with ❤️ and ☕ by <a href="https://github.com/dinraj910">Your Name</a></i>
+  ⭐ <b>Star this repo if you found it useful!</b> ⭐
 </p>
 
 <p align="center">
-  <img src="https://komarev.com/ghpvc/?username=dinraj910&repo=traffic-ai-yolo&color=blueviolet&style=for-the-badge" alt="Profile Views"/>
+  <img src="https://komarev.com/ghpvc/?username=dinraj910&repo=Traffic-AI-YOLO&color=blueviolet&style=for-the-badge" alt="Profile Views"/>
 </p>

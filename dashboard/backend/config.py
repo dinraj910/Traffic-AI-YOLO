@@ -29,7 +29,7 @@ class Settings(BaseSettings):
     # Data Paths (relative to project root)
     data_dir: Path = Path(__file__).parent.parent.parent / "data"
     csv_file: str = "traffic_counts_per_minute.csv"
-    video_file: str = "traffic_count_output.avi"
+    video_file: str = "traffic_count_output.mp4"
     
     # Location Configuration
     location_name: str = "Vittal Mallya Road, Bengaluru"
